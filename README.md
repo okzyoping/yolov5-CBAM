@@ -1,22 +1,56 @@
-# yolov5-CBAM
-test on ubuntu 20.04
+# YOLOv5-CBAM
 
+Tested on Ubuntu 20.04
 
-Ubuntu 20.04
+## Setup Environment
 
-# create environment
-1. sudo apt update
-2. sudo apt upgrade
-3. sudo apt install virtualenv
-4. virtualenv -p /usr/bin/python3 change_with_your_name_environment
-   
-# aktivate environment
-1. source your_name_environtment/bin/activate
+1. Update package index:
+    ```bash
+    sudo apt update
+    ```
 
-# clone my repository to run the code 
-1. git clone https://github.com/okzyoping/yolov5-CBAM.git
-2. cd yolov5-CBAM
-3. pip3 install -r requirements.txt
+2. Upgrade installed packages to latest versions:
+    ```bash
+    sudo apt upgrade
+    ```
 
-# Train code 
-1. python3 train.py --cfg models/yolov5n-CBAM.yaml --epoch 50  --img 640  
+3. Install virtualenv:
+    ```bash
+    sudo apt install virtualenv
+    ```
+
+4. Create a virtual environment (replace 'your_name_environment' with your desired environment name):
+    ```bash
+    virtualenv -p /usr/bin/python3 your_name_environment
+    ```
+
+## Activate Environment
+
+1. Activate the virtual environment:
+    ```bash
+    source your_name_environment/bin/activate
+    ```
+
+## Clone Repository & Install Dependencies
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/okzyoping/yolov5-CBAM.git
+    ```
+
+2. Navigate to the cloned directory:
+    ```bash
+    cd yolov5-CBAM
+    ```
+
+3. Install required dependencies:
+    ```bash
+    pip3 install -r requirements.txt
+    ```
+
+## Training
+
+1. Run the training script with desired parameters (replace 'models/yolov5n-CBAM.yaml' with your desired config file and adjust other parameters as needed):
+    ```bash
+    python3 train.py --cfg models/yolov5n-CBAM.yaml --epoch 50 --img 640
+    ```
