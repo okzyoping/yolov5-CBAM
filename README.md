@@ -58,4 +58,4 @@ Tested on Ubuntu 20.04
 
 Thank you to Roboflow for their support!
 
-![Roboflow Logo]([https://assets-global.website-files.com/5ddac3144544592b11e011f8/5f0d6231adad3b20a9ee2685_Roboflow-logo-inverted%402x.png](https://assets-global.website-files.com/5f6bc60e665f54545a1e52a5/642746dba53a59a614a64b35_roboflow-open-graph.png))
+![Roboflow Logo](https://assets-global.website-files.com/5ddac3144544592b11e011f8/5f0d6231adad3b20a9ee2685_Roboflow-logo-inverted%402x.png)
