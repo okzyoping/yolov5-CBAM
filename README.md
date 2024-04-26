@@ -54,3 +54,8 @@ Tested on Ubuntu 20.04
     ```bash
     python3 train.py --cfg models/yolov5n-CBAM.yaml --epoch 50 --img 640 --data your_custom_dataset
     ```
+
+
+Thank you to Roboflow for their support!
+
+![Roboflow Logo](https://assets-global.website-files.com/5ddac3144544592b11e011f8/5f0d6231adad3b20a9ee2685_Roboflow-logo-inverted%402x.png)
