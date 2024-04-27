@@ -45,14 +45,14 @@ Tested on Ubuntu 20.04
 
 3. Install required dependencies:
     ```bash
-    pip3 install -r requirements.txt
+    pip3 install -r requirements.txt --no-cache
     ```
 
 ## Training
 
 1. Run the training script with desired parameters (replace 'models/yolov5n-CBAM.yaml' with your desired config file and adjust other parameters as needed):
     ```bash
-    python3 train.py --cfg models/yolov5n-CBAM.yaml --epoch 50 --img 640 --data your_custom_dataset
+    python3 train.py --cfg models/yolov5n-CBAM.yaml --epoch 50 --img 640 --data your_custom_dataset --device 0
     ```
 
 
